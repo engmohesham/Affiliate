@@ -488,6 +488,10 @@ label {
   background-color: var(--main-color);
 }
 
+.link {
+  margin-top: 50px !important;
+}
+
 .log-in,
 .sign-up {
   padding: 1.4em;
@@ -504,6 +508,7 @@ label {
 }
 .log-in {
   background-color: #56a363;
+  margin-right: 20px !important;
 }
 .sign-up {
   background-color: #442b38;
@@ -735,6 +740,7 @@ label {
 .hex-content:hover {
   color: var(--main-color);
 }
+
 
 /*------------------------------------------------
     Sign-up Page
@@ -1264,12 +1270,18 @@ label {
   height: 250px;
 }
 
-.leftside .edit {
-  display: block;
-  padding: .5em;
-  border-radius: .5rem;
+.Up {
+  margin-bottom: 30px;
+  margin-top: -20px;
+  font-size: 1.5rem;
+  font-family: "Cairo", Helvetica, sans-serif;
   font-weight: bold;
   color: #fff;
+}
+
+#file {
+  display: block;
+  border-radius: .5rem;
   display: flex;
   justify-content: center;
   margin-top: .5rem !important;
@@ -1277,25 +1289,37 @@ label {
   margin: auto;
   text-align: center;
   transition: var(--main-tra);
-  background-color: rgb(87, 2, 2);
   width: 40%;
-  font-size: 1.5rem;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  outline: none;
 }
+::-webkit-file-upload-button {
+  color: #fff;
+  background-color: rgb(87, 2, 2);
+  width: 100%;
+  padding: .5em;
+  font-size: 1.5rem;
+  font-family: "Cairo", Helvetica, sans-serif;
+  font-weight: bold;
+  transition: var(--main-tra);
+}
+#file
 
-.edit:hover {
+#file::-webkit-file-upload-button:hover {
   background-color: rgb(160, 60, 60);
   cursor: pointer;
 }
 
-.leftside .edit .icon-edit {
-  font-size: 2rem;
-  margin: 5px 0 0 7px;
+.icon-edit {
+  font-size: 3rem;
   transition: var(--main-tra);
+  position: relative;
+  top: -100px;
+  color: #fff;
 }
 
-.leftside .edit:hover .icon-edit {
-  transform: translateX(.3rem);
+#file:hover + .icon-edit {
+  transform: translateY(-.5rem);
+  color: rgb(160, 60, 60);
 }
 
 .product {
@@ -2281,6 +2305,11 @@ label {
   }
 
   .page-title {
+    margin-bottom: 45px;
+    margin-top: 30px;
+  }
+
+  .page-title img {
     margin-bottom: 45px;
   }
 
