@@ -1274,7 +1274,6 @@ label {
 }
 
 #file {
-  display: block;
   border-radius: .5rem;
   display: flex;
   justify-content: center;
