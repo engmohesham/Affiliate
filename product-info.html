@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+  <!-- meta charset -->
+  <meta charset="utf-8">
+  <!-- site title -->
+  <title>Affiliate Family | Withdraw</title>
+  <!-- meta description -->
+  <meta name="description" content="">
+  <!-- mobile viwport meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- fevicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+  <!-- ================================
+        CSS Files
+        ================================= -->
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Open+Sans:400,600,700,800"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/themefisher-fonts.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/dark.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+
+    .rightside {
+      font-family: 'Changa', sans-serif;
+    }
+
+    .rightside .title_product {
+      font-size: 2rem;
+      color: #442b38 !important;
+      font-weight: bold;
+      letter-spacing: normal;
+      font-family: 'Cairo', serif;
+      display: flex;
+      justify-content: center;
+      margin: 3rem 0;
+    }
+
+    .rightside .color,
+    .rightside .price,
+    .rightside .discripe {
+      line-height: 1.7;
+      letter-spacing: normal;
+      font-size: 1.7rem;
+      padding: .5em;
+      border-radius: .5rem;
+      font-weight: bold;
+      background-color: rgb(0, 154, 174);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      text-align: center;
+      transition: .4s ease-in-out;
+      margin-bottom: .8rem;
+    }
+
+    .rightside .copy,
+    .rightside .order {
+      font-size: 1.5rem;
+      width: 80%;
+    }
+
+    .rightside .order {
+      background-color: rgb(0, 154, 174);
+      cursor: pointer;
+    }
+
+    .rightside .order:hover {
+      background-color: rgb(0, 192, 218);
+    }
+
+    .code-user {
+      text-transform: none;
+    }
+
+    .rightside .discripe {
+      background-color: rgb(0, 90, 102);
+    }
+
+    .over-hide {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      transition: .4s ease-in-out;
+    }
+
+    .main-form {
+      position: absolute;
+      top: 57%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 100vh;
+      width: 70%;
+      /* background-color: rgba(255, 255, 255, 0.8); */
+      background: linear-gradient(45deg, #02b7cf71 20%, rgba(0, 0, 0, 0.8) 10%);
+      overflow: hidden;
+      padding: 3rem;
+    }
+
+    .main-form .form-order {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 3rem;
+      margin-top: 3rem;
+      font-family: 'Changa', sans-serif !important;
+    }
+
+    .form-order .inputbox {
+      border: none;
+      background-color: transparent;
+      border-bottom: 3px solid rgb(147, 0, 0);
+      transition: .3s ease-in-out;
+      font-size: 1.5rem;
+      color: #fff;
+      letter-spacing: normal;
+      font-weight: bold;
+    }
+
+    .form-order .area {
+      font-size: 1.7rem;
+      letter-spacing: 1.1px;
+      resize: none;
+    }
+
+    .area::-webkit-scrollbar {
+      width: 12px;
+      background-color: #fff;
+    }
+
+    .area::-webkit-scrollbar-thumb {
+      background-color: #02b7cf;
+    }
+
+    .form-order .inputbox:focus {
+      border-color: #02b7cf;
+      box-shadow: inset 0 0 0 2rem #005b67;
+    }
+
+    .form-order .area:focus {
+      box-shadow: inset 0 0 0 5rem #005b67;
+    }
+
+    .form-order p {
+      display: block;
+      z-index: -1;
+      font-size: 1.4rem;
+      font-weight: bold;
+      letter-spacing: normal;
+      color: rgb(255, 255, 255);
+      position: relative;
+      top: -85px;
+      transition: .3s ease-in-out;
+    }
+
+    .btn {
+      margin-bottom: 20px;
+      background-color: rgb(147, 0, 0);
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      letter-spacing: normal;
+    }
+
+    .details .title_product {
+      letter-spacing: normal;
+    }
+
+    .close {
+      color: #fff;
+      opacity: 1;
+      transition: .4s ease-in-out;
+    }
+
+    .close:hover {
+      color: rgb(147, 0, 0);
+      border: none;
+      outline: none;
+      box-shadow: none;
+      opacity: 1;
+    }
+
+    @media only screen and (min-width: 767px) {
+      .main-form {
+        overflow: hidden;
+        background: linear-gradient(45deg, #61686971 20%, rgba(0, 0, 0, 0.8) 10%);
+      }
+
+      .main-form .form-order {
+        width: 60%;
+        margin-left: 140px;
+        display: grid;
+      }
+
+      .main-form .information {
+        width: 30%;
+        margin-right: 30px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        display: grid;
+        gap: 1.5rem;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .main-form .form-order .inputbox {
+        width: 100%;
+      }
+
+      .main-form .information .image {
+        height: 250px;
+        width: 250px;
+        margin-bottom: 20px;
+      }
+
+      .main-form .information .image img {
+        height: 100%;
+        width: 100%;
+      }
+
+      .details {
+        letter-spacing: normal;
+        font-family: 'Changa', sans-serif !important;
+      }
+
+      .details .color,
+      .details .price {
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin-top: 20px;
+        display: block;
+        background-color: rgb(147, 0, 0);
+      }
+    }
+
+    @media only screen and (max-width: 767px) {
+      .main-form {
+        width: 90%;
+        height: 125vh;
+      }
+
+      .main-form .form-order .inputbox {
+        width: 100%;
+      }
+
+      .main-form .information {
+        margin-bottom: 20px;
+        display: flex;
+        gap: 1.5rem;
+      }
+
+      .details {
+        line-height: 1.7;
+      }
+
+      .details .color,
+      .details .price {
+        font-size: 1.2rem;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+      }
+
+      .details .price {
+        letter-spacing: 1.7px !important;
+      }
+
+      .details .color {
+        margin-top: 10px;
+      }
+
+    }
+  </style>
+</head>
+
+<body class="dark">
+
+  <div class="preloader">
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+  </div>
+
+  <main class="site-wrapper">
+    <div class="pt-table">
+      <div class="pt-tablecell page-welcome relative">
+        <!-- .close -->
+        <a href="product.html" class="page-close"><i class="tf-ion-close"></i></a>
+        <!-- /.close -->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+              <div class="page-title text-center">
+                <h2>Product <span class="primary">Page</span> <span class="title-bg">Info</span></h2>
+              </div>
+            </div>
+          </div> <!-- /.row -->
+
+          <div class="mainscreen">
+            <!-- <img src="https://image.freepik.com/free-vector/purple-background-with-neon-frame_52683-34124.jpg"  class="bgimg " alt="">-->
+            <div class="card card-profile">
+              <div class="leftside">
+                <img src="img/product.jpg" class="product" alt="Shoes" />
+
+              </div>
+              <div class="rightside">
+                <h3 class="title_product">بنطلون احمر</h3>
+                <span class="color">اللون : احمر</span>
+                <span class="price">السعر : 320 جم</span>
+                <span class="discripe">قميص امريكان ايجل (قميص فقط بدون الت شيرت) خامه القميص اكسفورد قطن مستورد تطريز
+                  بأعلي جودة ----- مقاسات القميص ( M - L - XL - XXL ) ----- التلبيس ( M -> 55kg : 65 kg ) ( L -> 65kg :
+                  75kg ) ( XL -> 75kg : 85 kg ) ( XXL -> 85kg : 95 kg) ____________________
+                  #𝘼𝙁𝙁𝙄𝙇𝙄𝘼𝙏𝙀_𝙁𝘼𝙈𝙄𝙇𝙔·•●</span>
+                </p>
+                <a class="price" href="{{$product->shiping}}" target="_blank">
+                  <span>تفاصيل الشحن</span>
+                </a>
+                <b class="copy">
+                  Copy
+                  <i class="tf-ion-ios-paper icon-copy"></i>
+                </b>
+                <b class="copy order">
+                  Order
+                  <i class="tf-pencil2 icon-copy"></i>
+                </b>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="over-hide hide">
+            <div class="main-form">
+              <i class="tf-ion-close close" id="close"></i>
+              <div class="information">
+                <div class="image">
+                  <img class="card__thumb" src="img/product.jpg" alt="" />
+                </div>
+                <div class="details">
+                  <h3 class="title_product">بنطلون احمر</h3>
+                  <span class="color">اللون : احمر</span>
+                  <span class="price">السعر : 320 جم</span>
+                </div>
+              </div>
+              <form action="" class="form-order">
+                <input type="text" name="name" class="inputbox" style="direction: rtl;">
+                <p>Customer's Name</p>
+
+                <input type="text" name="name" class="inputbox" maxlength="11" onkeypress="isnumber(event)">
+                <p>Customer's Phone</p>
+
+                <input type="text" name="name" class="inputbox" style="direction: rtl;">
+                <p>Customer's Address</p>
+
+                <textarea rows="3" class="inputbox area" style="resize: none;"></textarea>
+                <p style="top: -155px;">Notes</p>
+
+                <button type="button" class="button btn">Submit</button>
+              </form>
+            </div>
+          </div>
+
+        </div> <!-- /.container -->
+
+      </div> <!-- /.pt-tablecell -->
+    </div> <!-- /.pt-table -->
+  </main> <!-- /.site-wrapper -->
+
+  <!-- ================================
+        JavaScript Libraries
+        ================================= -->
+  <script>
+    function isnumber(evt) {
+      var ch = String.fromCharCode(evt.which);
+
+      if (!/[0-9]/.test(ch)) {
+        evt.preventDefault();
+      }
+    };
+
+    let close = document.getElementById('close'),
+      over = document.querySelector('.over-hide'),
+      order_btn = document.querySelector('.order')
+
+    close.addEventListener('click', function () {
+      over.classList.add('hide')
+    })
+    order_btn.addEventListener('click', function () {
+      over.classList.remove('hide')
+    })
+  </script>
+  <script src="js/vendor/jquery-2.2.4.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery-validation.min.js"></script>
+  <script src="js/form.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
